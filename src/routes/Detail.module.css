@@ -1,21 +1,21 @@
-  .detail {
-    display: flex;
-    padding: 50px;
-    width: 80%;
-    padding-top: 70px;
-    padding-bottom: 0px;
-  }
-  
+.detail {
+  display: flex;
+  padding: 50px;
+  width: 80%;
+  padding-top: 70px;
+  padding-bottom: 0px;
+}
+
+.movies {
+  display: flex;
+  padding: 50px;
+  width: 80%;
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 1090px) {
   .movies {
-    display: flex;
-    padding: 50px;
-    width: 80%;
-    padding-top: 0px;
+    grid-template-columns: 1fr;
+    width: 100%;
   }
-  
-  @media screen and (max-width: 1090px) {
-    .movies {
-      grid-template-columns: 1fr;
-      width: 100%;
-    }
-  }
+}
