@@ -20,6 +20,7 @@ function Home() {
   return (
     <div>
       <h1 className={styles.junsik}>Junsik Movie</h1>
+      <div className={styles.cutewelcome}><a href="https://dzv123.github.io/cutepet/">cute-welcome</a></div>
     <div className={styles.container}>
       
       {loading ? (

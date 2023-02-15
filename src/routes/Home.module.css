@@ -5,6 +5,12 @@
     font-size: 80px;
 }
 
+.cutewelcome {
+  height: 100%;
+  text-align: right;
+  padding-right: 300px;
+}
+
 .container {
     height: 100%;
     display: flex;
