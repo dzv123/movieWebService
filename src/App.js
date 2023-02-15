@@ -3,10 +3,10 @@ import Detail from "./routes/Detail";
 import Home from "./routes/Home";
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/movieWebService" element={<Home />} />
-        <Route path="/movieWebService/:id" element={<Detail />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/movie/:id" element={<Detail />} />
       </Routes>
     </Router>
   );
