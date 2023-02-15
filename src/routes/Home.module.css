@@ -6,8 +6,9 @@
 }
 
 .cutewelcome {
-  height: 100%;
-  text-align: right;
+  height: 100%;    
+  display: flex;
+  justify-content: right;
   padding-right: 300px;
 }
 
@@ -44,5 +45,9 @@
   .junsik {
     width: 100%;
     font-size:60px;
+  }
+
+  .cutewelcome {
+    width: 100%;
   }
 }
