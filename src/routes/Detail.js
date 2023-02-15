@@ -1,5 +1,7 @@
 import { useEffect, useState, } from "react";
 import { useParams } from "react-router-dom";
+import styles from "./Detail.module.css";
+
 function Detail() {
   const { id } = useParams();
   const [detail , setDetail] =  useState([]);
@@ -12,6 +14,6 @@ function Detail() {
   useEffect(() => {
     getMovie();
   });
-  return <h1>{detail}</h1>;
+  return <div className={styles.movies}>{detail}</div>;
 }
 export default Detail;

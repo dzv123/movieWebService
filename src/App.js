@@ -5,8 +5,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie/:id" element={<Detail />} />
+        <Route path="/movieWebService" element={<Home />} />
+        <Route path="/movieWebService/:id" element={<Detail />} />
       </Routes>
     </Router>
   );
