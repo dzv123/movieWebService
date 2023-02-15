@@ -14,6 +14,9 @@ function Detail() {
   useEffect(() => {
     getMovie();
   });
-  return <div className={styles.movies}>{detail}</div>;
+  return <div>
+    <h2 className={styles.detail}> Details:</h2>
+    <div className={styles.movies}>{detail}</div>
+  </div>;
 }
 export default Detail;

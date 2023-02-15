@@ -1,8 +1,16 @@
-  .movies {
+  .detail {
     display: flex;
     padding: 50px;
     width: 80%;
     padding-top: 70px;
+    padding-bottom: 0px;
+  }
+  
+  .movies {
+    display: flex;
+    padding: 50px;
+    width: 80%;
+    padding-top: 0px;
   }
   
   @media screen and (max-width: 1090px) {
